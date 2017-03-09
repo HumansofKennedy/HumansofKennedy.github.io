@@ -1,0 +1,195 @@
+#Intro_Body {
+    background-color: #171615;
+}
+
+.Hello {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'GT Sectra Display Light';
+}
+
+.Introduction {
+    text-align: center;
+    color: white;
+    background-color: #171615;
+    box-shadow: 0px 0px 4px 1px #8B2635;
+}
+
+#enter_container {
+    background-color: rgba(255, 96, 88, 0.93);
+    height: 50px;
+    line-height: 50px; /*Must be same as height for vertical align*/
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+
+    display: flex;
+    justify-content: center;
+    align-item: center;
+
+    -webkit-box-shadow: 0 8px 6px -6px grey;
+    -moz-box-shadow: 0 8px 6px -6px grey;
+    box-shadow: 0 8px 6px -6px grey;
+}
+
+#enter {
+    text-align: center;
+    height: 50px;
+    width: 75px;
+    font-family: Impact, serif;
+    font-size: 30px;
+    color: white;
+}
+
+#styling_links_sucks:link {
+    text-decoration: none;
+    color: white;
+}
+
+#styling_links_sucks:visited {
+    color: white;
+}
+
+#styling_links_sucks:hover {
+    color: white;
+    text-shadow: 0 0 20px #FF0000;
+}
+
+#styling_links_sucks:active {
+    color: white;
+}
+
+
+
+
+/*INDEX TO HOMEPAGE SEPARATOR*/
+
+
+#slide_container {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    box-sizing: border-box;
+}
+
+#slide_container_pt2 {
+    background-color: #171615;
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+
+#transparent_textdiv {
+    background: black;
+    opacity: 0.3;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    line-height: 200px;
+}
+
+#slide1_div{
+
+}
+
+#slide1 {
+    height: auto;
+    width: 25%;
+}
+
+#slide2_div {
+
+}
+
+#slide2 {
+    height: auto;
+    width: 25%;
+}
+
+/* */
+
+#gallery_intro {
+    text-align: center;
+    font-size: 40px;
+}
+
+#outer_body {
+    display: block;
+    background-color: #8B2635;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.interviews {
+    font-size: 20px;
+}
+
+#interview_container_1 {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#MoniqueF {
+}
+
+#interview_text_1 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#interview_container_2 {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+#MicharlaB {
+}
+
+#interview_text_2 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#interview_container_3 {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#EmmaB {
+}
+
+#interview_text_3 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#interview_container_4 {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+#HalleG {
+}
+
+#interview_text_4 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
