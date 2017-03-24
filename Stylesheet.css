@@ -72,27 +72,28 @@
 #slide_container {
     margin-left: 50px;
     margin-right: 50px;
-    display: block;
     box-sizing: border-box;
+    display:inline-block;
 }
 
 #slide_container_pt2 {
     background-color: #171615;
     color: black;
     box-sizing: border-box;
-    display: block;
-    float: left;
+    text-align:center;
+    vertical-align: top
 }
 
 #transparent_textdiv {
     background: black;
-    opacity: 0.3;
+    background-color: rgba(0,0,0,0.65);
     color: white;
     z-index: 1;
     text-align: center;
     width: 100%;
-    height: auto;
     line-height: 200px;
+    position: absolute;
+    box-sizing: border-box;
 }
 
 #slide1_div{
@@ -102,6 +103,7 @@
 #slide1 {
     height: auto;
     width: 25%;
+    float: left
 }
 
 #slide2_div {
@@ -111,13 +113,40 @@
 #slide2 {
     height: auto;
     width: 25%;
+    float: left
+}
+
+#slide3_div {
+
+}
+
+#slide3 {
+    height: auto;
+    width: 25%;
+    float: left
+}
+
+#slide4_div {
+
+}
+
+#slide4 {
+    height: auto;
+    width: 25%;
+    float: left
 }
 
 /* */
 
 #gallery_intro {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+#gallery_intro_subtitle {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
 #outer_body {
@@ -128,6 +157,9 @@
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
+    box-sizing: border-box;
+    text-align:center;
+    vertical-align: top
 }
 
 .interviews {
@@ -141,6 +173,7 @@
 }
 
 #MoniqueF {
+    max-width: 100%;
 }
 
 #interview_text_1 {
@@ -156,6 +189,7 @@
 }
 
 #MicharlaB {
+    max-width: 100%;
 }
 
 #interview_text_2 {
@@ -168,9 +202,11 @@
     width: 50%;
     height: auto;
     float: left;
+    margin-top: 50px;
 }
 
 #EmmaB {
+    max-width: 100%;
 }
 
 #interview_text_3 {
@@ -183,9 +219,11 @@
     width: 50%;
     height: auto;
     float: right;
+    margin-top: 50px;
 }
 
 #HalleG {
+    max-width: 100%;
 }
 
 #interview_text_4 {
@@ -193,6 +231,47 @@
     position: relative;
     padding: 10px;
 }
+
+
+
+#interview_container_5 {
+    width: 49%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+#HalleG {
+    max-width: 100%;
+}
+
+#interview_text_5 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#interview_container_6 {
+    width: 49%;
+    height: auto;
+    float: right;
+    margin-top: 50px;
+}
+
+#HalleG {
+    max-width: 100%;
+}
+
+#interview_text_6 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#FrontI1 {
+    max-width: 100%;
+}
+
 
 #status {
     color: white;
