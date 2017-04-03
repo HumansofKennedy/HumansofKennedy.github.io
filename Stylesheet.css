@@ -170,6 +170,7 @@
     width: 50%;
     height: auto;
     float: left;
+    margin-top: 50px;
 }
 
 #MoniqueF {
@@ -186,6 +187,7 @@
     width: 50%;
     height: auto;
     float: right;
+    margin-top: 50px;
 }
 
 #MicharlaB {
@@ -271,6 +273,48 @@
 #FrontI1 {
     max-width: 100%;
 }
+
+/* */
+
+#interview_container_neg_1 {
+    width: 49%;
+    height: auto;
+    float: right;
+    margin-top: 50px;
+}
+
+#interview_text_1 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#interview_container_neg_2 {
+    width: 49%;
+    height: auto;
+    float: right;
+    margin-top: 50px;
+}
+
+#interview_text_1 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+#interview_container_neg_3 {
+    width: 49%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+#interview_text_1 {
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
 
 
 #status {
