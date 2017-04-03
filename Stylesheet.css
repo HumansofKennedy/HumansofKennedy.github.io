@@ -317,6 +317,11 @@
 
 
 
+#center_me {
+    text-align: center;
+    color: white;
+}
+
 #status {
     color: white;
     font-size: 20px;
