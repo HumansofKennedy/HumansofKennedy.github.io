@@ -63,6 +63,45 @@
     color: white;
 }
 
+/* */
+
+.KoH-button:link {
+    text-decoration: none;
+    color: white;
+}
+
+.KoH-button:visited {
+    color: white;
+}
+
+.KoH-button:hover {
+    color: white;
+    text-shadow: 0 0 20px #FF6058;
+}
+
+.KoH-button:active {
+    color: white;
+}
+
+.KoH-button {
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#page_bar_container {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background-color: #8B2635;
+    text-decoration: none;
+}
+
+.KoH-button {
+    font-size: 50px;
+}
+
 
 
 
@@ -328,12 +367,37 @@
     text-align: center;
 }
 
-#page_bar {
-    text-align: center;
-    position: fixed;
-
+body {
+    margin:0;
+    padding:0;
 }
 
-.KoH-button {
-    font-size: 50px;
+
+
+
+
+
+/* */
+/*EXAMPLEPAGE*/
+
+#examp {
+    font-size: 20px;
+    text-align: center;
+}
+
+#rotating_div {
+    background-color: #1f7e9a;
+    transform: translate(50px, 100px);
+    width: 50px;
+    height: 50px;
+    transition: 2s;
+    position: absolute;
+    left:50%;
+}
+
+#rotating_div:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
 }
