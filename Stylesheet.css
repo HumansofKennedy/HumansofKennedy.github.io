@@ -327,3 +327,13 @@
     font-size: 20px;
     text-align: center;
 }
+
+#page_bar {
+    text-align: center;
+    position: fixed;
+
+}
+
+.KoH-button {
+    font-size: 50px;
+}
